@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    margin-bottom: 50px; /* Add some space below the navbar */
+}
+
+/* Overall container styles */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the individual project cards */
+.card {
+    transition: transform 0.2s; /* Animation for hover effect */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card-img-top {
+    height: 150px; /* Fixed heigth for images */
+    object-fit: cover; /* Make sure images cover the area withuot distortion */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Adjustmets for the button inside the card */
+.card .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
